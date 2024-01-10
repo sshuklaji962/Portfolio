@@ -1,0 +1,126 @@
+.skill-tab-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 28px;
+    border-radius: 28px;
+    align-items: center;
+}
+
+@media screen and (max-width: 830px) {
+    .skill-tab-container {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .skill-tab-container {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .skill-tab-container {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .skill-tab-container {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .skill-tab-container {
+        max-width: 250px;
+    }
+}
+
+.skill-tab-container .head {
+    align-self: flex-start;
+    margin-left: 22px;
+    margin-top: 4px;
+    font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 830px) {
+    .skill-tab-container .head {
+        font-size: 16px;
+        margin-left: 12px;
+    }
+}
+
+.skill-tab-container .skill-tab-list {
+    display: flex;
+    margin-top: 16px;
+    gap: 46px;
+    padding: 0 22px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1160px) {
+    .skill-tab-container .skill-tab-list {
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .skill-tab-container .skill-tab-list {
+        gap: 18px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .skill-tab-container .skill-tab-list {
+        gap: 18px;
+        margin-top: 18px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .skill-tab-container .skill-tab-list {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .skill-tab-container .skill-tab-list {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .skill-tab-container .skill-tab-list {
+        gap: 15px;
+    }
+}
+
+.skill-tab-container .languages {
+    gap: 60px;
+    padding: 0 26px;
+}
+
+@media screen and (max-width: 1160px) {
+    .skill-tab-container .languages {
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .skill-tab-container .languages {
+        gap: 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .skill-tab-container .languages {
+        gap: 0px;
+    }
+}
+
+.skill-tab-container .one-item {
+    padding: 0 40px;
+}

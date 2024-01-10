@@ -1,0 +1,71 @@
+.context-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 50;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    gap: 7px;
+    visibility: hidden;
+  }
+  
+  .context-menu a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .context-menu .context-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 8px 16px 9px 16px;
+    background-color: white;
+    border-radius: 12px;
+    transition: 0.2s transform, 0.2s background-color, 0.2s scale;
+  }
+  
+  .context-menu .context-menu-item:active {
+    transform: scale(0.95);
+  }
+  
+  .context-menu .context-menu-item:hover {
+    background-color: #0064ff;
+    scale: 1.07;
+  }
+  
+  .context-menu .context-menu-item:hover .context-icon {
+    fill: white;
+  }
+  
+  .context-menu .context-menu-item:hover h3 {
+    color: white;
+  }
+  
+  .context-menu .context-menu-item .context-icon {
+    width: 20px;
+    fill: black;
+    transition: 0.2s fill;
+  }
+  
+  .context-menu .context-menu-item .linkedin {
+    height: 17px;
+    margin-bottom: 1px;
+  }
+  
+  .context-menu .context-menu-item .share {
+    height: 21px;
+  }
+  
+  .context-menu .context-menu-item .mail {
+    height: 15px;
+  }
+  
+  .context-menu .context-menu-item h3 {
+    font-family: "Inter", sans-serif;
+    letter-spacing: -0.025em;
+    font-size: 16px;
+    transition: 0.2s color;
+  }
+  

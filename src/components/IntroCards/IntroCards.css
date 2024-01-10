@@ -1,0 +1,533 @@
+.container-intro {
+    margin-top: 80px;
+    display: flex;
+    gap: 28px;
+    position: relative;
+  }
+  
+  @media screen and (max-width: 1380px) {
+    .container-intro {
+      margin-left: 96px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .container-intro {
+      margin-left: 110px;
+    }
+  }
+  
+  @media screen and (max-width: 1230px) {
+    .container-intro {
+      margin-left: 0px;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .container-intro {
+      flex-direction: column;
+      margin-top: 90px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .container-intro {
+      margin-top: 60px;
+    }
+  }
+  
+  .big-card {
+    border-radius: 28px;
+    padding: 61px 56px 58px 60px;
+  }
+  
+  @media screen and (max-width: 1380px) {
+    .big-card {
+      padding: 48px 36px 48px 40px;
+    }
+  }
+  
+  @media screen and (max-width: 1230px) {
+    .big-card {
+      padding: 36px 26px 36px 30px;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .big-card {
+      padding: 61px 56px 58px 60px;
+      max-width: 565px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .big-card {
+      padding: 48px 30px 48px 40px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .big-card {
+      padding: 36px 26px 36px 30px;
+      max-width: 410px;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .big-card {
+      max-width: 280px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .big-card {
+      padding: 24px 20px 24px 28px;
+      max-width: 230px;
+    }
+  }
+  
+  .big-card h3 {
+    max-width: 550px;
+    letter-spacing: -0.02em;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 1420px) {
+    .big-card h3 {
+      max-width: 500px;
+      font-size: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 1336px) {
+    .big-card h3 {
+      max-width: 430px;
+      font-size: 26px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .big-card h3 {
+      max-width: 390px;
+      font-size: 22px;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .big-card h3 {
+      font-size: 32px;
+      max-width: 550px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .big-card h3 {
+      max-width: 450px;
+      font-size: 26px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .big-card h3 {
+      max-width: 400px;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .big-card h3 {
+      max-width: 340px;
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .big-card h3 {
+      max-width: 280px;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .big-card h3 {
+      max-width: 230px;
+      font-size: 18px;
+    }
+  }
+  
+  .big-card p {
+    max-width: 560px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+    margin-top: 25px;
+  }
+  
+  @media screen and (max-width: 1420px) {
+    .big-card p {
+      max-width: 500px;
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (max-width: 1336px) {
+    .big-card p {
+      max-width: 430px;
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .big-card p {
+      max-width: 390px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 1230px) {
+    .big-card p {
+      margin-top: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .big-card p {
+      max-width: 560px;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .big-card p {
+      max-width: 460px;
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .big-card p {
+      max-width: 405px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .big-card p {
+      max-width: 345px;
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .big-card p {
+      max-width: 280px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .big-card p {
+      max-width: 230px;
+      font-size: 14px;
+    }
+  }
+  
+  .right-intro {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 678px;
+    gap: 18px;
+  }
+  
+  @media screen and (max-width: 1230px) {
+    .right-intro {
+      max-width: 450px;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .right-intro {
+      max-width: 678px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .right-intro {
+      max-width: 550px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .right-intro {
+      max-width: 465px;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .right-intro {
+      max-width: 405px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .right-intro {
+      max-width: 300px;
+      flex-direction: column;
+    }
+  }
+  
+  .small-card {
+    border-radius: 20px;
+    height: 210px;
+    width: 328px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 1380px) {
+    .small-card {
+      height: 180px;
+      width: 280px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .small-card {
+      height: 160px;
+      width: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 1230px) {
+    .small-card {
+      height: 130px;
+      width: 203px;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .small-card {
+      height: 210px;
+      width: 328px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .small-card {
+      height: 166px;
+      width: 260px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .small-card {
+      height: 140px;
+      width: 220px;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .small-card {
+      height: 119px;
+      width: 190px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .small-card {
+      height: 210px;
+      width: 335px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .small-card {
+      height: 170px;
+      width: 275px;
+    }
+  }
+  
+  .small-card h4 {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    max-width: 200px;
+  }
+  
+  @media screen and (max-width: 1380px) {
+    .small-card h4 {
+      font-size: 13px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .small-card h4 {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 1230px) {
+    .small-card h4 {
+      font-size: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .small-card h4 {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .small-card h4 {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .small-card h4 {
+      font-size: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .small-card h4 {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .small-card h4 {
+      font-size: 14px;
+    }
+  }
+  
+  .small-card .card-top {
+    display: flex;
+  }
+  
+  .small-card h2 {
+    font-size: 54px !important;
+  }
+  
+  @media screen and (max-width: 1380px) {
+    .small-card h2 {
+      font-size: 54px !important;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .small-card h2 {
+      font-size: 50px !important;
+    }
+  }
+  
+  @media screen and (max-width: 1230px) {
+    .small-card h2 {
+      font-size: 42px !important;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .small-card h2 {
+      font-size: 56px !important;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .small-card h2 {
+      font-size: 50px !important;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .small-card h2 {
+      font-size: 42px !important;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .small-card h2 {
+      font-size: 70px !important;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .small-card h2 {
+      font-size: 60px !important;
+    }
+  }
+  
+  .small-card .green {
+    background: rgb(48, 168, 188);
+    background: linear-gradient(45deg, rgba(48, 168, 188, 1) 0%, rgba(77, 218, 104, 1) 100%);
+  }
+  
+  .small-card .green-sign {
+    background: rgb(82, 227, 90);
+    background: linear-gradient(45deg, rgba(82, 227, 90, 1) 0%, rgba(86, 234, 77, 1) 100%);
+  }
+  
+  .small-card .blue {
+    background: rgb(24, 96, 196);
+    background: linear-gradient(315deg, rgba(24, 96, 196, 1) 0%, rgba(88, 208, 217, 1) 100%);
+  }
+  
+  .small-card .purple {
+    background: rgb(81, 56, 236);
+    background: linear-gradient(45deg, rgba(81, 56, 236, 1) 0%, rgba(181, 97, 249, 1) 100%);
+  }
+  
+  .small-card .purple-sign {
+    background: rgb(197, 104, 251);
+    background: linear-gradient(45deg, rgba(197, 104, 251, 1) 0%, rgba(213, 111, 254, 1) 100%);
+  }
+  
+  .small-card .red {
+    background: rgb(200, 69, 145);
+    background: linear-gradient(315deg, rgba(200, 69, 145, 1) 0%, rgba(247, 161, 123, 1) 100%);
+  }
+  
+  .small-card .red-sign {
+    background: rgb(189, 48, 149);
+    background: linear-gradient(315deg, rgba(189, 48, 149, 1) 0%, rgba(200, 68, 145, 1) 100%);
+  }
+  
+  .small-card .percent {
+    align-self: flex-end;
+    margin-bottom: 10px;
+    font-size: 26px !important;
+  }
+  
+  .small-card .num {
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -0.025em;
+  }
+  
+  .small-card .num,
+  .small-card .sign {
+    background-clip: text; /* Standard property */
+    color: transparent; /* This is equivalent to -webkit-text-fill-color: transparent; */
+  }
+  
+  
+  .small-card .place {
+    margin-top: 18px;
+  }
+  
+  .small-card .sign {
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+  }
+  

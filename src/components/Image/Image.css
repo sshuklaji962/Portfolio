@@ -1,0 +1,83 @@
+.skill-tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .skill-tab-item img {
+    height: 100px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .skill-tab-item img {
+      height: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 885px) {
+    .skill-tab-item img {
+      height: 55px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .skill-tab-item img {
+      height: 45px;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .skill-tab-item img {
+      height: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .skill-tab-item img {
+      height: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .skill-tab-item img {
+      height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .skill-tab-item img {
+      height: 50px;
+    }
+  }
+  
+  .skill-tab-item h3 {
+    font-family: "Inter", sans-serif;
+    opacity: 0.75;
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 885px) {
+    .skill-tab-item h3 {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .skill-tab-item h3 {
+      font-size: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .skill-tab-item h3 {
+      margin-bottom: 18px;
+    }
+  }
+  
