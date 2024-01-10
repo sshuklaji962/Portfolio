@@ -1,6 +1,5 @@
 <h1 align="center">👤 React Portfolio Website</h1>
 
-![](https://i.imgur.com/h6IME6J.png)
 <p align="center">
   Portfolio Website built with React, TypeScript, SASS and Framer Motion
 </p>
@@ -10,7 +9,7 @@
 A portfolio website built for myself to show off projects, my tech stack, skills and UI/UX expertise.
 
 ## 🔴 Demo
-🧪 [Live Demo](https://gianlucajahn.github.io/portfolio) available. Click "Live Demo" to open it.
+🧪 [Live Demo](https://sshuklaji962.github.io/Portfolio/) available. Click "Live Demo" to open it.
 
 ## Features
 - Scroll-based animations for modern UX
