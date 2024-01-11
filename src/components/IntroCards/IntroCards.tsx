@@ -58,7 +58,7 @@ export default function IntroCards () {
             viewport={{ once: true }}
         >
             <div className="card-top">
-                <h2 className="num red">100</h2>
+                <h2 className="num red">99.9</h2>
                 <h2 className="sign percent red-sign">%</h2>
             </div>
             <h4 className={`${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>{state.language === "english" ? "जुनून" : "passion"}</h4>
