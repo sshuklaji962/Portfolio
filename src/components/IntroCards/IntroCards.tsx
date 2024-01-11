@@ -21,7 +21,7 @@ export default function IntroCards () {
           viewport={{ once: true }}
         >
             <div className="card-top">
-                <h2 className="num green">800</h2>
+                <h2 className="num green">790</h2>
                 <h2 className="sign green-sign">+</h2>
             </div>
             <h4 className={`${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>LeetCode Problems</h4>
@@ -34,7 +34,7 @@ export default function IntroCards () {
             viewport={{ once: true }}
         >
             <div className="card-top">
-                <h2 className="num place blue">{state.language === "english" ? "1691" : "1691"}</h2>
+                <h2 className="num place blue">{state.language === "english" ? "1699" : "1699"}</h2>
             </div>
             <h4 className={`${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>{state.language === "english" ? `अब तक की उच्चतम लीटकोड प्रतियोगिता रेटिंग।` : `Highest leetcode contest rating till now.`}</h4>
         </motion.div>
